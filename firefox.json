@@ -1,0 +1,255 @@
+{
+  "@context": "http://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Firefox",
+  "slug": "firefox",
+  "description_html": "<a href=\"https://www.mozilla.org/\">Mozilla</a>&rsquo;s <a href=\"https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly\">bleeding-edge version</a> of <a href=\"https://www.mozilla.org/en-US/firefox/\">Firefox</a>",
+  "operatingSystem": "Windows 7.1+",
+  "processorRequirements": "IA64",
+  "headsets": [
+    "htc_vive",
+    "oculus_rift"
+  ],
+  "logo": "/firefox/icon-nightly.png",
+  "url": "https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly",
+  "about": "/firefox",
+  "landingUrl": "https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly",
+  "downloadUrl": "https://download-origin.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win64.installer.exe",
+  "sourceCodeUrl": "https://dxr.mozilla.org/mozilla-central/source/dom/vr",
+  "sameAs": [
+    "https://webvr.rocks/firefox",
+    "https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly"
+  ],
+  "showDateReleased": false,
+  "releases": {
+    "latest": {
+      "status": "experimental",
+      "landingUrl": "https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly",
+      "buildInfo": {
+        "as": "ml64.exe",
+        "buildid": "20170308030207",
+        "cc": "c:/builds/moz2_slave/m-cen-w64-ntly-000000000000000/build/src/vs2015u3/VC/bin/amd64/cl.exe",
+        "cxx": "c:/builds/moz2_slave/m-cen-w64-ntly-000000000000000/build/src/vs2015u3/VC/bin/amd64/cl.exe",
+        "host_alias": "x86_64-pc-mingw32",
+        "host_cpu": "x86_64",
+        "host_os": "mingw32",
+        "host_vendor": "pc",
+        "moz_app_id": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}",
+        "moz_app_maxversion": "55.0a1",
+        "moz_app_name": "firefox",
+        "moz_app_vendor": "Mozilla",
+        "moz_app_version": "55.0a1",
+        "moz_pkg_platform": "win64",
+        "moz_source_repo": "MOZ_SOURCE_REPO=https://hg.mozilla.org/mozilla-central",
+        "moz_source_stamp": "58753259bfeb3b818eac7870871b0aae1f8de64a",
+        "moz_update_channel": "nightly",
+        "target_alias": "x86_64-pc-mingw32",
+        "target_cpu": "x86_64",
+        "target_os": "mingw32",
+        "target_vendor": "pc"
+      },
+      "buildInfoFilename": "firefox-55.0a1.en-US.win64.json",
+      "buildInfoUrl": "https://download-origin.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win64.json",
+      "downloadUrl": "https://download-origin.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win64.installer.exe",
+      "downloadInstallerUrl": "https://download-origin.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win64.installer.exe",
+      "downloadZipUrl": "https://download-origin.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win64.zip",
+      "dateReleased": {
+        "originalDateTimeString": "08-Mar-2017 12:38",
+        "datetime": 1489005480000,
+        "datetimeString": "Mar 8, 2017, 12:38 PM",
+        "dateString": "Mar 8, 2017",
+        "timeString": "12:38 PM",
+        "isoString": "2017-03-08T20:38:00.000Z"
+      },
+      "dateReleasedInstaller": {
+        "originalDateTimeString": "08-Mar-2017 12:38",
+        "datetime": 1489005480000,
+        "datetimeString": "Mar 8, 2017, 12:38 PM",
+        "dateString": "Mar 8, 2017",
+        "timeString": "12:38 PM",
+        "isoString": "2017-03-08T20:38:00.000Z"
+      },
+      "dateReleasedZip": {
+        "originalDateTimeString": "08-Mar-2017 12:38",
+        "datetime": 1489005480000,
+        "datetimeString": "Mar 8, 2017, 12:38 PM",
+        "dateString": "Mar 8, 2017",
+        "timeString": "12:38 PM",
+        "isoString": "2017-03-08T20:38:00.000Z"
+      },
+      "installerFilename": "firefox-55.0a1.en-US.win64.installer.exe",
+      "zipFilename": "firefox-55.0a1.en-US.win64.zip",
+      "fileSize": "46 MB",
+      "fileSizeInstaller": "46 MB",
+      "fileSizeZip": "57 MB"
+    }
+  },
+  "platforms": {
+    "htc_vive": {
+      "windows": "supported",
+      "mac": "headset_unsupported",
+      "linux": "headset_unsupported",
+      "android": "headset_unsupported",
+      "ios": "headset_unsupported"
+    },
+    "oculus_rift": {
+      "windows": "supported",
+      "mac": "headset_unsupported",
+      "linux": "headset_unsupported",
+      "android": "headset_unsupported",
+      "ios": "headset_unsupported"
+    },
+    "samsung_gear_vr": {
+      "windows": "headset_unsupported",
+      "mac": "headset_unsupported",
+      "linux": "headset_unsupported",
+      "android": "browser_unsupported",
+      "ios": "headset_unsupported"
+    },
+    "google_daydream": {
+      "windows": "headset_unsupported",
+      "mac": "headset_unsupported",
+      "linux": "headset_unsupported",
+      "android": "browser_unsupported",
+      "ios": "headset_unsupported"
+    },
+    "google_cardboard": {
+      "windows": "headset_unsupported",
+      "mac": "headset_unsupported",
+      "linux": "headset_unsupported",
+      "android": "browser_unsupported",
+      "ios": "browser_unsupported"
+    },
+    "windows_mixed_reality": {
+      "windows": "browser_unsupported",
+      "mac": "headset_unsupported",
+      "linux": "headset_unsupported",
+      "android": "headset_unsupported",
+      "ios": "headset_unsupported"
+    }
+  },
+  "reports": [
+    {
+      "type": "bug",
+      "browserUserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0",
+      "browserVersion": "Nightly 50.0",
+      "browserBuildId": "20161104212021",
+      "browserDate": "2016-11-04",
+      "headsets": [
+        "htc_vive"
+      ],
+      "description": "Scene wobbles as headset rotates",
+      "status": "Needs STR",
+      "dateReported": {
+        "datetime": "2016-11-27T19:41:34",
+        "pretty": "Nov 27, 2016"
+      },
+      "dateUpdated": {
+        "datetime": "2017-01-31T09:21:05",
+        "pretty": "Jan 31, 2017"
+      },
+      "bugUrl": "https://bugzilla.mozilla.org/show_bug.cgi?id=1334977"
+    },
+    {
+      "type": "feature",
+      "headsets": [
+        "oculus_rift"
+      ],
+      "description": "Oculus Remote support",
+      "status": "TBD",
+      "dateReported": {
+        "datetime": "2016-03-29T14:46:00",
+        "pretty": "Mar 3, 2016"
+      },
+      "dateUpdated": {
+        "datetime": "2016-09-27T05:29:00",
+        "pretty": "Aug 27, 2016"
+      },
+      "bugUrl": "https://bugzilla.mozilla.org/show_bug.cgi?id=1260561"
+    },
+    {
+      "type": "site",
+      "description": "05 Roomscale not loading",
+      "webcompatUrl": "https://webcompat.com/issues/4528"
+    }
+  ],
+  "buildInfo": {
+    "as": "ml64.exe",
+    "buildid": "20170308030207",
+    "cc": "c:/builds/moz2_slave/m-cen-w64-ntly-000000000000000/build/src/vs2015u3/VC/bin/amd64/cl.exe",
+    "cxx": "c:/builds/moz2_slave/m-cen-w64-ntly-000000000000000/build/src/vs2015u3/VC/bin/amd64/cl.exe",
+    "host_alias": "x86_64-pc-mingw32",
+    "host_cpu": "x86_64",
+    "host_os": "mingw32",
+    "host_vendor": "pc",
+    "moz_app_id": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}",
+    "moz_app_maxversion": "55.0a1",
+    "moz_app_name": "firefox",
+    "moz_app_vendor": "Mozilla",
+    "moz_app_version": "55.0a1",
+    "moz_pkg_platform": "win64",
+    "moz_source_repo": "MOZ_SOURCE_REPO=https://hg.mozilla.org/mozilla-central",
+    "moz_source_stamp": "58753259bfeb3b818eac7870871b0aae1f8de64a",
+    "moz_update_channel": "nightly",
+    "target_alias": "x86_64-pc-mingw32",
+    "target_cpu": "x86_64",
+    "target_os": "mingw32",
+    "target_vendor": "pc"
+  },
+  "buildInfoFilename": "firefox-55.0a1.en-US.win64.json",
+  "buildInfoUrl": "https://download-origin.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win64.json",
+  "downloadInstallerUrl": "https://download-origin.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win64.installer.exe",
+  "downloadZipUrl": "https://download-origin.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win64.zip",
+  "dateReleased": {
+    "originalDateTimeString": "08-Mar-2017 12:38",
+    "datetime": 1489005480000,
+    "datetimeString": "Mar 8, 2017, 12:38 PM",
+    "dateString": "Mar 8, 2017",
+    "timeString": "12:38 PM",
+    "isoString": "2017-03-08T20:38:00.000Z"
+  },
+  "dateReleasedInstaller": {
+    "originalDateTimeString": "08-Mar-2017 12:38",
+    "datetime": 1489005480000,
+    "datetimeString": "Mar 8, 2017, 12:38 PM",
+    "dateString": "Mar 8, 2017",
+    "timeString": "12:38 PM",
+    "isoString": "2017-03-08T20:38:00.000Z"
+  },
+  "dateReleasedZip": {
+    "originalDateTimeString": "08-Mar-2017 12:38",
+    "datetime": 1489005480000,
+    "datetimeString": "Mar 8, 2017, 12:38 PM",
+    "dateString": "Mar 8, 2017",
+    "timeString": "12:38 PM",
+    "isoString": "2017-03-08T20:38:00.000Z"
+  },
+  "installerFilename": "firefox-55.0a1.en-US.win64.installer.exe",
+  "zipFilename": "firefox-55.0a1.en-US.win64.zip",
+  "fileSize": "46 MB",
+  "fileSizeInstaller": "46 MB",
+  "fileSizeZip": "57 MB",
+  "notifications": [
+    {
+      "pinned": true,
+      "type": "alert",
+      "content_html": "Warning: WebVR support in Firefox Nightly is experimental and subject to change",
+      "content_html": "<strong>Warning:</strong> WebVR support in <a href=\"#releases\">Firefox Nightly</a> is experimental and subject to change"
+    },
+    {
+      "type": "success",
+      "dismissable": false,
+      "content": "Firefox Nightly now supports Oculus Touch controllers!",
+      "content_html": "<a href=\"/firefox#download\">Firefox Nightly</a> now supports <a href=\"https://www.oculus.com/rift/#u_0_g\">Oculus Touch</a> controllers!",
+      "datePublished": {
+        "originalDateTimeString": "18-Feb-2017 12:27:05",
+        "datetime": 1487449625000,
+        "datetimeString": "Feb 18, 2017, 12:27 PM",
+        "dateString": "Feb 18, 2017",
+        "timeString": "12:27 PM",
+        "isoString": "2017-02-18T20:27:05.000Z"
+      },
+      "position": -1
+    }
+  ]
+}
